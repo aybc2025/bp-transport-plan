@@ -3,9 +3,11 @@ import L from 'leaflet';
 import useStore from '../../store';
 import useRouteData from '../../hooks/useRouteData';
 import useStops from '../../hooks/useStops';
+import useProposedRoutes from '../../hooks/useProposedRoutes';
 import { MAP_CONFIG, COLORS } from '../../constants';
 import { createBusRouteLayer, createSkyTrainLayer, createHighlightLayer } from './RouteLayer';
 import { createStationLayer } from './StationMarkers';
+import { createProposedRouteLayer } from './ProposedRouteLayer';
 
 export default function TransitMap() {
   const mapRef = useRef(null);
@@ -13,6 +15,7 @@ export default function TransitMap() {
   const layersRef = useRef({});
   const { setMapLoaded, visibleLayers, highlightedRoutes } = useStore();
   const { routes } = useRouteData();
+  const { proposedRoutes } = useProposedRoutes();
   const { stations } = useStops();
 
   // Initialize map
@@ -93,6 +96,16 @@ export default function TransitMap() {
     stationLayer.addTo(map);
     layersRef.current.stations = stationLayer;
   }, [stations]);
+
+  // Add proposed routes
+  useEffect(() => {
+    const map = mapInstance.current;
+    if (!map || !proposedRoutes || layersRef.current.proposedRoutes) return;
+
+    const proposedLayer = createProposedRouteLayer(proposedRoutes);
+    proposedLayer.addTo(map);
+    layersRef.current.proposedRoutes = proposedLayer;
+  }, [proposedRoutes]);
 
   // Toggle layer visibility
   useEffect(() => {

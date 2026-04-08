@@ -73,6 +73,14 @@
   font-weight: 600 !important;
 }
 
+/* ── Proposed route dashed lines ──────────────────────────────── */
+.proposed-tooltip {
+  background: var(--color-success, #2D9F4F) !important;
+}
+.proposed-tooltip::before {
+  border-top-color: var(--color-success, #2D9F4F) !important;
+}
+
 /* ── Bus route hover ──────────────────────────────────────────── */
 .bus-route-line {
   transition: opacity 0.15s;

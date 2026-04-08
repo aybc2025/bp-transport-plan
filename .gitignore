@@ -23,6 +23,12 @@ gtfs-source/
 .DS_Store
 Thumbs.db
 
+# Local working copies
+V2/
+
+# Claude Code
+.claude/
+
 # Debug logs
 npm-debug.log*
 yarn-debug.log*

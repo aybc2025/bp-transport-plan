@@ -17,6 +17,7 @@ const useStore = create((set) => ({
     skytrainLines: true,
     stations: true,
     busStops: false,
+    proposedRoutes: true,
     transitPriority: false,
   },
   toggleLayer: (layer) =>

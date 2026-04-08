@@ -2,7 +2,8 @@ import { useState } from 'react';
 import useMapLayers from '../../hooks/useMapLayers';
 
 const LAYER_OPTIONS = [
-  { id: 'busRoutes', label: 'Bus Routes', color: '#0A5E8A' },
+  { id: 'busRoutes', label: 'Current Routes', color: '#0A5E8A' },
+  { id: 'proposedRoutes', label: 'Proposed Routes', color: '#2D9F4F' },
   { id: 'skytrainLines', label: 'SkyTrain', color: '#0033a0' },
   { id: 'stations', label: 'Stations', color: '#1A1A2E' },
   { id: 'busStops', label: 'Bus Stops', color: '#6B7280' },

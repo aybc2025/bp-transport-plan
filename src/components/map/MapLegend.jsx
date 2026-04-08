@@ -20,7 +20,13 @@ export default function MapLegend() {
         {visibleLayers.busRoutes && (
           <div className="flex items-center gap-2">
             <span className="w-5 h-[3px] rounded-sm flex-shrink-0" style={{ backgroundColor: COLORS.primary, opacity: 0.5 }} />
-            <span className="text-[11px] font-body text-neutral-600">Bus Routes</span>
+            <span className="text-[11px] font-body text-neutral-600">Current Routes</span>
+          </div>
+        )}
+        {visibleLayers.proposedRoutes && (
+          <div className="flex items-center gap-2">
+            <span className="w-5 h-[3px] rounded-sm flex-shrink-0" style={{ backgroundColor: COLORS.success, borderTop: '2px dashed #2D9F4F' }} />
+            <span className="text-[11px] font-body text-neutral-600">Proposed Routes</span>
           </div>
         )}
         {visibleLayers.stations && (

@@ -74,6 +74,7 @@ export const NEIGHBOURHOODS = [
 const base = import.meta.env.BASE_URL;
 export const DATA_PATHS = {
   routes: `${base}data/routes.geojson`,
+  proposedRoutes: `${base}data/proposedRoutes.geojson`,
   stops: `${base}data/stops.geojson`,
   stations: `${base}data/stations.geojson`,
   planActions: `${base}data/planActions.json`,
