@@ -71,14 +71,15 @@ export const NEIGHBOURHOODS = [
 ];
 
 // ── Data file paths ─────────────────────────────────────────────
+const base = import.meta.env.BASE_URL;
 export const DATA_PATHS = {
-  routes: '/data/routes.geojson',
-  stops: '/data/stops.geojson',
-  stations: '/data/stations.geojson',
-  planActions: '/data/planActions.json',
-  surveyResults: '/data/surveyResults.json',
-  timelineEvents: '/data/timelineEvents.json',
-  cyclingGaps: '/data/cyclingGaps.json',
-  transitPriority: '/data/transitPriority.json',
-  keyStats: '/data/keyStats.json',
+  routes: `${base}data/routes.geojson`,
+  stops: `${base}data/stops.geojson`,
+  stations: `${base}data/stations.geojson`,
+  planActions: `${base}data/planActions.json`,
+  surveyResults: `${base}data/surveyResults.json`,
+  timelineEvents: `${base}data/timelineEvents.json`,
+  cyclingGaps: `${base}data/cyclingGaps.json`,
+  transitPriority: `${base}data/transitPriority.json`,
+  keyStats: `${base}data/keyStats.json`,
 };
