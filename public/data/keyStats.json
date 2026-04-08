@@ -1,0 +1,15 @@
+{
+  "stats": [
+    {"label":"Total Survey Responses","value":9300,"suffix":"+","icon":"survey"},
+    {"label":"Phase 1 Participants","value":5100,"suffix":"+","icon":"people"},
+    {"label":"Phase 2 Participants","value":4200,"suffix":"+","icon":"people"},
+    {"label":"In-Person Events","value":62,"suffix":"","icon":"event"},
+    {"label":"People Spoken In Person","value":3400,"suffix":"+","icon":"chat"},
+    {"label":"Route Proposals","value":59,"suffix":"","icon":"route"},
+    {"label":"Routes Modified After Feedback","value":17,"suffix":"","icon":"edit"},
+    {"label":"Proposals with Majority Support","value":52,"suffix":" of 59","icon":"thumbsUp"},
+    {"label":"Languages Translated","value":4,"suffix":"","icon":"language","detail":"English, Chinese, Punjabi, Spanish"},
+    {"label":"Highest Net Support","value":87,"suffix":"%","icon":"star","detail":"Route 49X"},
+    {"label":"Lowest Net Support","value":-37,"suffix":"%","icon":"alert","detail":"Route 211 Changes"}
+  ]
+}

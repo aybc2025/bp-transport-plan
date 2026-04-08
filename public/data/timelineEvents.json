@@ -1,0 +1,20 @@
+{
+  "milestones": [
+    {"id":"broadway-subway","title":"Broadway Subway Opens","year":2027,"quarter":"Q3","type":"infrastructure","description":"Millennium Line extension to Arbutus Street — 6 new stations","actions":["1.1","1.2"],"status":"under-construction"},
+    {"id":"r2-extension","title":"R2 RapidBus Extension to Metrotown","year":2027,"type":"service","description":"Extend R2 Marine Drive from River District to Metrotown Station","actions":["1.3"],"status":"funded"},
+    {"id":"stanley-park","title":"Stanley Park Bus Route","year":2026,"type":"service","description":"New seasonal shuttle service to Stanley Park funded in 2025 Investment Plan","actions":["2.4"],"status":"funded"},
+    {"id":"bus-integration-broadway","title":"Bus Network Integration (Broadway)","year":2027,"type":"service","description":"Restructure local buses to connect with new Broadway Subway stations","actions":["1.1","1.2"],"status":"planned"},
+    {"id":"south-van-changes","title":"South Vancouver Bus Changes","year":"2026-2027","type":"service","description":"Route modifications in south Vancouver including changes to routes 8, 20, 26, 29, 31","actions":["1.4","1.5"],"status":"planned"},
+    {"id":"burnaby-gondola","title":"Burnaby Mountain Gondola","year":"2028-2030","type":"infrastructure","description":"Aerial gondola from SkyTrain to SFU campus — replaces bus route 143","actions":["1.6"],"status":"planned"},
+    {"id":"limited-stop","title":"New Limited-Stop Routes","year":"2026-2028","type":"service","description":"10 new limited-stop overlay routes including 49X, 25X, 20X, 19X, 123X, 240X, 250X","actions":["3.3.2"],"status":"planned"},
+    {"id":"millennium-ubc","title":"Millennium Line UBC Extension","year":"2030+","type":"infrastructure","description":"SkyTrain extension from Arbutus to UBC campus","actions":["1.7"],"status":"proposed"},
+    {"id":"north-shore","title":"North Shore Bus Improvements","year":"2026-2028","type":"service","description":"New routes H and I; changes to 209, 210, 211, 214, 257 serving North Vancouver","actions":["2.5"],"status":"planned"},
+    {"id":"transit-priority","title":"Transit Priority Infrastructure","year":"2026-2032","type":"infrastructure","description":"31 priority corridors in 3 tiers for bus lanes, signal priority, queue jumps","actions":["3.2"],"status":"planned"},
+    {"id":"downtown-restructure","title":"Downtown Bus Restructure","year":"2028+","type":"service","description":"Reorganize downtown bus routing pending new exchanges at Stadium-Chinatown and Waterfront","actions":["2.6"],"status":"proposed"}
+  ],
+  "phases": [
+    {"id":"near-term","label":"Near-Term (2026–2028)","description":"Changes funded by 2025 Investment Plan or implementable with existing resources"},
+    {"id":"medium-term","label":"Medium-Term (2028–2032)","description":"Requires additional funding through future Investment Plans"},
+    {"id":"long-term","label":"Long-Term (2032–2041)","description":"Dependent on major infrastructure completion"}
+  ]
+}

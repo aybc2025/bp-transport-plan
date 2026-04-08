@@ -1,0 +1,31 @@
+{
+  "corridors": [
+    {"name":"Broadway (Arbutus–Commercial)","tier":1,"municipality":"Vancouver","status":"planned","notes":"Key east-west corridor connecting to Broadway Subway"},
+    {"name":"41st Avenue (UBC–Joyce)","tier":1,"municipality":"Vancouver","status":"planned","notes":"High ridership corridor served by routes 41 and 43"},
+    {"name":"Hastings St (Downtown–Boundary)","tier":1,"municipality":"Vancouver/Burnaby","status":"planned","notes":"R5 RapidBus corridor"},
+    {"name":"Kingsway (Main St–Metrotown)","tier":1,"municipality":"Vancouver/Burnaby","status":"planned","notes":"Diagonal corridor connecting to SkyTrain"},
+    {"name":"Main St/Fraser St","tier":1,"municipality":"Vancouver","status":"planned","notes":"North-south corridor to Marine Drive"},
+    {"name":"King Edward Ave/22nd Ave","tier":1,"municipality":"Vancouver/Burnaby","status":"planned","notes":"Future 25X limited-stop corridor"},
+    {"name":"Cambie St","tier":2,"municipality":"Vancouver","status":"planned","notes":"Canada Line surface corridor"},
+    {"name":"Granville St (Downtown–Marine)","tier":2,"municipality":"Vancouver","status":"planned","notes":"Route 10 corridor"},
+    {"name":"Knight St/Clark Dr","tier":2,"municipality":"Vancouver","status":"planned","notes":"North-south connection"},
+    {"name":"Victoria Dr/Commercial Dr","tier":2,"municipality":"Vancouver","status":"planned","notes":"Future 20X limited-stop corridor"},
+    {"name":"49th Ave (UBC–Metrotown)","tier":2,"municipality":"Vancouver/Burnaby","status":"planned","notes":"Future 49X limited-stop corridor"},
+    {"name":"Lougheed Hwy (Boundary–Coquitlam)","tier":2,"municipality":"Burnaby/Coquitlam","status":"planned","notes":"Eastern corridor"},
+    {"name":"Canada Way","tier":2,"municipality":"Burnaby","status":"planned","notes":"Future 123X limited-stop corridor"},
+    {"name":"Marine Way/Marine Dr (Burnaby)","tier":2,"municipality":"Burnaby","status":"planned","notes":"Southern Burnaby corridor"},
+    {"name":"Renfrew St/Rupert St","tier":3,"municipality":"Vancouver","status":"planned","notes":"Future Route I corridor"},
+    {"name":"Nanaimo St","tier":3,"municipality":"Vancouver","status":"planned","notes":"North-south connection"},
+    {"name":"Oak St","tier":3,"municipality":"Vancouver","status":"planned","notes":"Route 17 corridor"},
+    {"name":"Dunbar/MacDonald","tier":3,"municipality":"Vancouver","status":"planned","notes":"West side corridor"},
+    {"name":"Joyce St/Boundary Rd","tier":3,"municipality":"Vancouver/Burnaby","status":"planned","notes":"SkyTrain feeder corridor"},
+    {"name":"Edmonds St","tier":3,"municipality":"Burnaby","status":"planned","notes":"Station access corridor"},
+    {"name":"Royal Oak Ave/Kingsway","tier":3,"municipality":"Burnaby","status":"planned","notes":"Metrotown area"},
+    {"name":"6th St/8th St (New West)","tier":3,"municipality":"New Westminster","status":"planned","notes":"New Westminster corridors"}
+  ],
+  "tiers": {
+    "1": {"label":"Tier 1 — Highest Priority","color":"#D63031","count":6,"description":"Corridors with greatest need and highest ridership"},
+    "2": {"label":"Tier 2 — High Priority","color":"#FF6B35","count":8,"description":"Important corridors for near-term implementation"},
+    "3": {"label":"Tier 3 — Medium Priority","color":"#00B4D8","count":8,"description":"Corridors for medium-term implementation"}
+  }
+}

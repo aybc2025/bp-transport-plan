@@ -1,0 +1,14 @@
+{
+  "name": "BP Transport Plan Explorer",
+  "short_name": "BP Transit",
+  "description": "Explore the Burrard Peninsula Area Transport Plan",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0A5E8A",
+  "background_color": "#F8F9FA",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

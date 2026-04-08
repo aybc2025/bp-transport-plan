@@ -1,0 +1,26 @@
+{
+  "gaps": [
+    {"id":1,"name":"10th Ave (Alma–Discovery)","municipality":"Vancouver","priority":"high","status":"gap"},
+    {"id":2,"name":"Arbutus Greenway (South)","municipality":"Vancouver","priority":"high","status":"gap"},
+    {"id":3,"name":"Burrard Bridge Approaches","municipality":"Vancouver","priority":"high","status":"gap"},
+    {"id":4,"name":"Cambie Bridge–2nd Ave Connection","municipality":"Vancouver","priority":"high","status":"gap"},
+    {"id":5,"name":"Central Valley Greenway Improvements","municipality":"Vancouver/Burnaby","priority":"high","status":"partially-complete"},
+    {"id":6,"name":"Commercial Dr (1st–Grandview)","municipality":"Vancouver","priority":"high","status":"gap"},
+    {"id":7,"name":"Hastings (Clark–Boundary)","municipality":"Vancouver","priority":"high","status":"gap"},
+    {"id":8,"name":"Kingsway (Boundary–Edmonds)","municipality":"Burnaby","priority":"medium","status":"gap"},
+    {"id":9,"name":"Marine Drive (Burnaby)","municipality":"Burnaby","priority":"medium","status":"gap"},
+    {"id":10,"name":"Boundary Road","municipality":"Vancouver/Burnaby","priority":"medium","status":"gap"},
+    {"id":11,"name":"Canada Way","municipality":"Burnaby","priority":"medium","status":"gap"},
+    {"id":12,"name":"Edmonds–22nd St Connection","municipality":"Burnaby","priority":"medium","status":"gap"},
+    {"id":13,"name":"Royal Oak–Metrotown Connection","municipality":"Burnaby","priority":"medium","status":"gap"},
+    {"id":14,"name":"6th St/8th St (New Westminster)","municipality":"New Westminster","priority":"medium","status":"gap"},
+    {"id":15,"name":"McBride Blvd","municipality":"New Westminster","priority":"medium","status":"gap"},
+    {"id":16,"name":"East-West Connection (New West)","municipality":"New Westminster","priority":"medium","status":"gap"}
+  ],
+  "stats": {
+    "totalGaps": 46,
+    "highPriority": 7,
+    "mediumPriority": 24,
+    "lowerPriority": 15
+  }
+}
