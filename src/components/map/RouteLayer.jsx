@@ -59,7 +59,7 @@ export function createSkyTrainLayer(geojson) {
  * Highlight specific routes by short name.
  */
 export function createHighlightLayer(geojson, routeNames) {
-  const group = L.layerGroup();
+  const group = L.featureGroup();
   const nameSet = new Set(routeNames);
 
   geojson.features
